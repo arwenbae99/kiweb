@@ -1,0 +1,236 @@
+/*----------ROOOOOOOOT-----------*/
+:root {
+    --framesize: 1vw;
+}
+
+/* notes
+calc(100vh / 50)
+*/
+
+
+/*-----Fonts----*/
+
+@font-face {
+    font-family: "SharpGroteskBook-25";
+    src: url("fonts/SharpGroteskBook-25.woff2") format("woff2");
+}
+
+
+
+/*-----Tags----*/
+body {
+    background-color: #1F7AFF;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: calc(1.2*var(--framesize));
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+
+
+}
+
+a {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-align: left;
+
+
+}
+
+
+
+
+/*-----ID----*/
+
+
+#info-1 {
+    position: relative;
+}
+
+#info-2 {
+    position: relative;
+}
+
+#info-3 {
+    position: relative;
+}
+
+#year {
+    position: absolute;
+    top: 0;
+    width: 80vw;
+    height: auto;
+    padding-bottom: 500px;
+    filter: drop-shadow(0 0 2vw #3100FF);
+    z-index: -1;
+}
+
+
+
+
+/*-----Class----*/
+
+.flexbox-lettering {
+    padding: var(--framesize);
+    /*display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: var(--framesize);*/
+    position: relative;
+}
+
+.flexbox-lettering  img{
+    width: auto;
+    height: 100%;
+}
+
+.flexbox-lettering  div{
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-----lettering----*/
+
+
+.glyphcommon {
+
+    /*transform: translate(calc(50vw - 140px));*/
+}
+
+#glyph1e { 
+    top: var(--framesize);
+    height: calc(3*var(--framesize));
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#glyph2t { 
+    top: calc(5*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph3r { 
+    top: calc(9*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph4e { 
+    top: calc(13*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph5z { 
+    top: calc(17*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph6n { 
+    top: calc(21*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph7o { 
+    top: calc(25*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph8k { 
+    top: calc(29*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph9s { 
+    top: calc(33*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph10s { 
+    top: calc(37*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph11u { 
+    top: calc(41*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph12l { 
+    top: calc(45*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph13h { 
+    top: calc(49*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph14c { 
+    top: calc(53*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph15s { 
+    top: calc(57*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph16b { 
+    top: calc(61*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph17a { 
+    top: calc(65*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph18r { 
+    top: calc(69*var(--framesize));
+    height: calc(3*var(--framesize)); }
+
+#glyph19e { 
+    top: calc(73*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph20t { 
+    top: calc(77*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph21s { 
+    top: calc(81*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph22a { 
+    top: calc(85*var(--framesize));
+    height: calc(3*var(--framesize)); 
+}
+
+#glyph23m { 
+    top: calc(89*var(--framesize));
+    height: calc(5*var(--framesize)); 
+}
+  
+
