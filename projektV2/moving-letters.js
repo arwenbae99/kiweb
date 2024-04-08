@@ -38,9 +38,7 @@ function getElementViewportCenterY(element) {
 
 ////////////////////////////////////////////////////////////////// Get Elements
 const glyphs = document.querySelectorAll('.glyphcommon');
-const glyph1e = document.getElementById("glyph1e");
 
-const glyph1eY = getElementViewportCenterY(glyph1e); 
 
 
 
