@@ -1,0 +1,284 @@
+/*----------ROOOOOOOOT-----------*/
+:root {
+    --framesize: calc(100vh / 104);
+    --glyphdelay: 0.3s;
+}
+
+
+/*-----Fonts----*/
+@font-face {
+    font-family: "GT Sectra";
+    src: url("fonts/GT-Sectra-Display-Medium-Trial.woff2") format("woff2");
+}
+
+
+
+/*-----Tags----*/
+body {
+    background-color: #1F7AFF;
+    margin: 0;
+    max-height: 100vh;
+
+}
+
+h1 {
+    font-family: "GT Sectra", serif;
+    font-weight: 100;
+    color: #000000;
+    text-align: center;
+    font-size: 65vh;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: calc(1.2*var(--framesize));
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+
+
+}
+
+a {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-align: left;
+
+
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+
+/*-----ID----*/
+
+#year-2 {
+    transform: translate(0, -1vh);
+    place-self: center;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#year-0 {
+    transform: translate(0, -1vh);
+    place-self: center;
+    overflow: hidden;
+    z-index: -2;
+    
+}
+
+#year-1 {
+    transform: translate(0, 1vh);
+    place-self: center;
+    overflow: hidden;
+    z-index: 1;
+}
+#year-9 {
+    transform: translate(0, 1vh);
+    place-self: center;
+    overflow: hidden;
+    z-index: -2;
+
+}
+
+
+
+
+#info-1 {
+    position: relative;
+    animation: example  5s infinite ease-in-out;
+    animation-direction: alternate;
+    animation-delay: calc(-24*var(--glyphdelay));
+}
+
+#info-2 {
+    position: relative;
+    animation: example  5s infinite ease-in-out;
+    animation-direction: alternate;
+    animation-delay: calc(-25*var(--glyphdelay));
+    z-index: -1;
+}
+
+#info-3 {
+    position: relative;
+    animation: example  5s infinite ease-in-out;
+    animation-direction: alternate;
+    animation-delay: calc(-26*var(--glyphdelay));
+}
+
+
+
+
+/*-----Class----*/
+
+.grid-container-year {
+   
+    display: grid;
+    grid-template-columns: 36vh 36vh;
+    grid-template-rows: 35vh 40vh;
+    position: absolute;
+    transform: translate(calc(50vw - 38vh), 0);
+    
+    
+}
+
+.flexbox-lettering {
+    padding: var(--framesize);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    gap: var(--framesize);
+}
+
+
+
+
+
+
+
+
+
+/*-----Animations----*/
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+.glyphcommon {
+    position: relative;
+    transform: translate(calc(50vw - 140px));
+    animation: example  5s infinite ease-in-out;
+    animation-direction: alternate;
+}
+
+#glyph1e {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-1*var(--glyphdelay));
+}
+
+#glyph2t {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-2*var(--glyphdelay));
+}
+
+#glyph3r {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-3*var(--glyphdelay));
+}
+
+#glyph4e {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-4*var(--glyphdelay));
+    z-index: 1;
+}
+
+#glyph5z {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-5*var(--glyphdelay));
+    z-index: -3;
+}
+
+#glyph6n {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-6*var(--glyphdelay));
+}
+
+#glyph7o {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-7*var(--glyphdelay));
+}
+
+#glyph8k {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-8*var(--glyphdelay));
+}
+
+#glyph9s {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-9*var(--glyphdelay));
+}
+
+#glyph10s {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-10*var(--glyphdelay));
+}
+
+#glyph11u {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-11*var(--glyphdelay));
+}
+
+#glyph12l {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-12*var(--glyphdelay));
+}
+
+ 
+#glyph13h {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-13*var(--glyphdelay));
+}
+
+#glyph14c {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-14*var(--glyphdelay));
+}
+
+#glyph15s {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-15*var(--glyphdelay));
+}
+
+#glyph16b {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-16*var(--glyphdelay));
+}
+
+#glyph17a {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-17*var(--glyphdelay));
+}
+
+#glyph18r {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-18*var(--glyphdelay));
+}
+
+#glyph19e {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-19*var(--glyphdelay));
+}
+
+#glyph20t {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-20*var(--glyphdelay));
+}
+
+#glyph21s {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-21*var(--glyphdelay));
+}
+
+#glyph22a {
+    height: calc(3*var(--framesize));
+    animation-delay: calc(-22*var(--glyphdelay));
+}
+
+#glyph23m {
+    height: calc(5*var(--framesize));
+    animation-delay: calc(-23*var(--glyphdelay));
+}
+  
+@keyframes example {
+    from {left: -200px;}
+    to {left: 200px;}
+}
+
