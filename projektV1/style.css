@@ -63,23 +63,21 @@ img {
     transform: translate(0, -1vh);
     place-self: center;
     overflow: hidden;
-    z-index: 2;
+
 }
 
 #year-0 {
     transform: translate(0, -1vh);
     place-self: center;
     overflow: hidden;
-    z-index: -2;
-    
 }
 
 #year-1 {
     transform: translate(0, 1vh);
     place-self: center;
     overflow: hidden;
-    z-index: 1;
 }
+
 #year-9 {
     transform: translate(0, 1vh);
     place-self: center;
@@ -103,7 +101,6 @@ img {
     animation: example  5s infinite ease-in-out;
     animation-direction: alternate;
     animation-delay: calc(-25*var(--glyphdelay));
-    z-index: -1;
 }
 
 #info-3 {
@@ -177,13 +174,11 @@ img {
 #glyph4e {
     height: calc(3*var(--framesize));
     animation-delay: calc(-4*var(--glyphdelay));
-    z-index: 1;
 }
 
 #glyph5z {
     height: calc(3*var(--framesize));
     animation-delay: calc(-5*var(--glyphdelay));
-    z-index: -3;
 }
 
 #glyph6n {
